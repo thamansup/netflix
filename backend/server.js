@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import connectMongoDB from "./db/connectMongoDB.js";
 dotenv.config();
+//this is the commited file and have been changed
 const app = express();
 app.use(cors());
 const PORT = process.env.PORT||8800 ;
